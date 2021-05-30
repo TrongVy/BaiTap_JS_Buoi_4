@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+<h1 style="text-align: center;"> Bài 3: Đếm chẳn lẻ</h1>
+<div style="width: 50%; margin: 0 auto; background-color:antiquewhite; padding: 20px;">
+  <p>input: nhập 3 số nguyên</p>
+  <p>handle <br>
+       b1: * tạo 3 biến a,b,c tương ứng vs 3 số nguyên. <br>
+       *tạo 2 biến soChan và soLe gán bằng 0; <br> 
+      b2: tạo biến d, gán biến d= document.getElementsByTagName('input') <br>
+      vòng lặp  for(var i=0; i< d.length;i++) <br>    
+      b3: nếu d[i]%2 == 0 thì soChan =soChan + 1 và ngược lại
+      </p>
+      <p>output: xuất tổng số chẳn và tổng số lẻ</p>
+</div>
+    <div style="width: 50%; margin:  0 auto;">
+        <label for="">số nguyên thứ nhất </label> <br>
+        <input style="padding:5px 20px;" placeholder="nhập số" type="text" id="a"> <br>
+        <label for="">số nguyên thứ 2 </label> <br>
+        <input style="padding:5px 20px;" placeholder="nhập số" type="text" id="b"> <br>
+        <label for="">số nguyên thứ 3 </label> <br>
+        <input style="padding:5px 20px;" placeholder="nhập số" type="text" id="c"> <br>
+        <button class="mt-2" id="btn">kết quả</button>
+         <div>
+             <p style="color:brown;font-size: 30px;" id="ketQua_le"> </p>
+             <p style="color:brown;font-size: 30px;" id="ketQua_chan"> </p>
+         </div>
+     </div>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./3.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
